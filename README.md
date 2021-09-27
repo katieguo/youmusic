@@ -1,7 +1,6 @@
-# youmusic
-
-YouMusic is a music generator. It creates chord progressions based on a user's heart rate (used as BPM) and mood (used for chords and modulations).
-Heart rate is measured with an Arduino and Raspberry Pi.
-Mood is detected using facial recognition software.
-
-By Kat Guo, Anshul Gupta, and Andrew Liu. 2021.
+# You Music
+By Anshul Gupta, Andrew Liu, and Kat Guo
+<br>
+**[Github](https://github.com/theAnshulGupta/youmusic) • [Website](https://anshulgupta.com/youmusic)**
+<br>
+Acknowledgements: *Mauricio de Oliveria, Gualter Moura, Shlomo Dubnov Nicholas, Stephen, Benjamin, Jonathan, Ross*

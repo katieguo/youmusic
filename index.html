@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>You Music</title>
+
+    <link rel="icon" href="images/favicon.png" />
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <span class="logo"><img src="images/logopngsmall.png" alt="" /></span>
+        <h1>You Music</h1>
+        <p>By Anshul Gupta, Andrew Liu, and Kat Guo</p>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#intro" class="active">Introduction</a></li>
+          <li><a href="#first">Download</a></li>
+          <li><a href="#second">About</a></li>
+          <li><a href="#cta">Acknowledgements</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Introduction -->
+        <section id="intro" class="main">
+          <div class="spotlight">
+            <div class="content">
+              <header class="major">
+                <h2>Welcome to <strong>You Music</strong></h2>
+              </header>
+              <p>
+                YouMusic sparks interest in music and adds more significance to
+                it. By customizing it to listeners' physiological statuses,
+                YouMusic allows users to create an emotional and personal
+                connection with music.
+              </p>
+              <ul class="actions">
+                <li><a href="#second" class="button">Learn More</a></li>
+              </ul>
+            </div>
+            <span class="image"><img src="images/logopng.png" alt="" /></span>
+          </div>
+        </section>
+
+        <!-- First Section -->
+        <section id="first" class="main special">
+          <header class="major">
+            <h2>Download</h2>
+          </header>
+          <ul class="features">
+            <li>
+              <span class="icon solid major style1 fa-code"></span>
+              <h3>
+                <a
+                  href="https://github.com/theAnshulGupta/youmusic"
+                  target="_blank"
+                  >Source Code</a
+                >
+              </h3>
+              <p></p>
+            </li>
+            <li>
+              <span class="icon major style3 fa-map"></span>
+              <h3>
+                <a
+                  href="https://guitar.ucsd.edu/cosmos9/images/d/d0/Poster_5.pdf"
+                  target="_blank"
+                  >Poster Board</a
+                >
+              </h3>
+              <p></p>
+            </li>
+            <li>
+              <span class="icon major style5 fa-gem"></span>
+              <h3><a href="" target="_blank">Project Video</a></h3>
+              <p>Still in development</p>
+            </li>
+          </ul>
+          <!-- <footer class="major">
+            <ul class="actions special">
+              <li><a href="generic.html" class="button">Learn More</a></li>
+            </ul>
+          </footer> -->
+        </section>
+
+        <!-- Second Section -->
+        <section id="second" class="main special">
+          <header class="major">
+            <h2>About</h2>
+            <p>
+              This is a short Abstraction. View more
+              <a href="info.html">here</a>.
+            </p>
+          </header>
+          <ul class="statistics">
+            <li class="style1">
+              <span class="icon solid fa-music"></span>
+              <strong>Music</strong> Auto generated
+            </li>
+            <li class="style2">
+              <span class="icon solid fa-microchip"></span>
+              <strong>Hardware</strong> Arduino & Pi
+            </li>
+            <li class="style3">
+              <span class="icon solid fa-wifi"></span>
+              <strong>Sockets</strong> Through IP
+            </li>
+            <li class="style4">
+              <span class="icon solid fa-heartbeat"></span>
+              <strong>Heartbeat</strong> Sensor for BPM
+            </li>
+            <li class="style5">
+              <span class="icon fa-smile"></span>
+              <strong>Emotion</strong> Recognition
+            </li>
+          </ul>
+
+          <p class="content">
+            YouMusic incorporates a user's heart rate and mood to compose music
+            tailored to them. Using a heart rate sensor or button, Raspberry Pi,
+            and Python, it converts pulse to beats per minute (BPM) using
+            Fourier transforms. It utilizes a GUI where users can upload a photo
+            of themselves. DeepFace analyzes the emotional state of the face to
+            modify major and minor scales, modulation, and dissonance. These
+            values are sent to Pure Data (Pd) via IP sockets. Pd generates
+            chords as well as sampled drum set notes and updates in real-time to
+            illustrate how the user always feels.
+          </p>
+          <footer class="major">
+            <ul class="actions special">
+              <li><a href="info.html" class="button">More Information</a></li>
+            </ul>
+          </footer>
+          <p style="margin-left: 100px; margin-right: 100px; margin-bottom: 0">
+            <strong>Tools and Technologies </strong><br />
+            Pure Data, Raspberry Pi/Breadboard/Cables, Pulse Sensor, Button,
+            MCP3008 ADC, Soldering Iron, Python, Sockets, GUI, Matlab, Juypter
+            Notebook, Computer Vision/Tensorflow with DeepFace, Git/Github,
+            Calculus, Music Theory, Arduino, Ableton Live, Microphone
+          </p>
+        </section>
+
+        <!-- Get Started -->
+        <section id="cta" class="main special">
+          <header class="major">
+            <h2>Acknowledgements</h2>
+            <p>
+              Made at COSMOS 2021 <br />
+              <em>Anshul Gupta, Andrew Liu, and Kat Guo</em><br />
+              To our amazing faculty and TAs:<br />
+              Mauricio de Oliveria, Gualter Moura, Shlomo Dubnov Nicholas,
+              Stephen, Benjamin, Jonathan, Ross
+            </p>
+          </header>
+          <footer class="major">
+            <ul class="actions special">
+              <li>
+                <a href="info.html" class="button primary">More Info</a>
+              </li>
+              <li>
+                <a
+                  href="https://guitar.ucsd.edu/cosmos9/index.php/2021_Projects#You_Music"
+                  target="_blank"
+                  class="button"
+                  >COSMOS Project Site</a
+                >
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <span
+            ><h2>You Music</h2>
+            <a
+              href="https://github.com/theAnshulGupta/youmusic"
+              target="_blank"
+              class="icon brands fa-github alt"
+              ><span class="label">GitHub</span></a
+            ></span
+          >
+        </section>
+        <section>
+          <h4>Site by Anshul Gupta</h4>
+        </section>
+        <p style="font-size: 6px" class="copyright">Theme from HTML5UP</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
